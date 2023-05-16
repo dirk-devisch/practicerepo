@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 void by_value(int a, int b, int c);
+
 void by_ref(int *a, int *b, int *c);
 
 int main( void )

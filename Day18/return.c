@@ -14,6 +14,7 @@ int main( void )
 
     bigger1 = larger1(a, b);
     printf("\nThe larger value is %d.", bigger1);
+    printf("\n");
     bigger2 = larger2(&a, &b);
     printf("\nThe larger value is %d.\n", *bigger2);
     return 0;

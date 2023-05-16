@@ -13,9 +13,10 @@ int main( void )
 
     ptr = (int*)calloc(num, sizeof(long long));
 
-    if (ptr != NULL)
+    if (ptr != NULL) {
         puts("Memory allocation was successful.");
-    else
+        printf("Allocated %d bytes \n", num*sizeof(long long));
+    } else
         puts("Memory allocation failed.");
     return 0;
 }
